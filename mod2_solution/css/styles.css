@@ -16,11 +16,12 @@ h1{
 section{
 	
 	border: 1px solid black;
-	position: relative;
+	
 }
 p{
 	margin-top: 15px;
 	opacity: .6;
+	background-color: #6c6a61;
 	
 }
 span{
@@ -77,7 +78,13 @@ span{
 	.col-lg-12{
 		width: 100%;
 	}
+
+	p{
+	margin-top: 15px;
+	opacity: .6;
 	
+	
+}
 	
 
 
@@ -132,6 +139,12 @@ span{
 	.col-md-12{
 		width: 100%;
 	}
+	p{
+	margin-top: 15px;
+	opacity: .6;
+	
+	
+}
 	
 	
 	
