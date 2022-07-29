@@ -22,6 +22,12 @@ p{
 	margin-top: 15px;
 	opacity: .6;
 	background-color: #6c6a61;
+	width: 100%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: helvetica;
+	color: white;
 	
 }
 span{
