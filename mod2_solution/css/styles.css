@@ -33,6 +33,7 @@ p{
 span{
 	float: right;
 	background-color: #345246;
+	width: 150px;
 	border: 1px solid black;
 }
 .row{
@@ -85,10 +86,6 @@ span{
 		width: 100%;
 	}
 
-	p{
-	margin-top: 15px;
-	opacity: .6;
-	
 	
 }
 	
@@ -145,9 +142,6 @@ span{
 	.col-md-12{
 		width: 100%;
 	}
-	p{
-	margin-top: 15px;
-	opacity: .6;
 	
 	
 }
