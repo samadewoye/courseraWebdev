@@ -14,11 +14,7 @@ h1{
 }
 section{
 	position: relative;
-	margin: 10px;
 	border: 1px solid black;
-}
-p{
-	margin: 20px;
 }
 
 span{
@@ -35,7 +31,7 @@ sect
 	.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
 		width: 100%;
 		float: left;
-		background-color: #666;
+		background-color:#6c6a61;
 
 	}
 
@@ -91,7 +87,7 @@ sect
 	.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
 		width: 100%;
 		float: left;
-		background-color: #666;
+		background-color: #6c6a61;
 
 	}
 
