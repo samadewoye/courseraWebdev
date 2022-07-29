@@ -16,7 +16,10 @@ section{
 	position: relative;
 	border: 1px solid black;
 }
-
+p{
+	margin-top: 15px;
+	opacity: .6;
+}
 span{
 	float: right;
 	position: absolute;
