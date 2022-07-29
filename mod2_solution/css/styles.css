@@ -21,7 +21,6 @@ h1{
 p{
 	margin-top: 15px;
 	opacity: .6;
-	background-color: #6c6a61;
 	width: 100%;
 	height: 150px;
 	margin-right: auto;
@@ -31,13 +30,12 @@ p{
 	clear: both;
 	
 }
-div {
-	margin: 10px;
-}
+
 h2{
 	float: right;
 	background-color: #345246;
 	width: 150px;
+	color: white;
 	text-align: center;
 	border: 1px solid black;
 	margin-bottom: 20px;
