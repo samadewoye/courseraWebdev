@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+	/*margin: 0;
+	padding: 0;*/
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
 
@@ -109,7 +109,9 @@ h2{
 	.col-md-5,.col-md-6,.col-md-7,.col-md-8,
 	.col-md-9,.col-md-10,.col-md-11,.col-md-12{
 		float: left;
-		background-color: #6c6a61;
+		background-color:#6c6a61;
+		border: 1px solid black;
+		margin: 15px;
 
 	}
 
