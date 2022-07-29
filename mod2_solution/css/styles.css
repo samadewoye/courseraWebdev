@@ -12,21 +12,19 @@ h1{
 	margin-bottom: 20px;
 
 }
-div {
-	position: relative;
-}
+
 section{
 	
 	border: 1px solid black;
+	position: relative;
 }
 p{
 	margin-top: 15px;
 	opacity: .6;
-	position: absolute;
+	
 }
 span{
 	float: right;
-	position: absolute;
 	background-color: #345246;
 	border: 1px solid black;
 }
