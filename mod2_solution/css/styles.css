@@ -9,39 +9,70 @@ h1{
 	
 	font-size: 36px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 100px;
+
 
 }
 
-/*section{
-	
-	border: 1px solid black;
-	
-}*/
 p{
-	margin-top: 15px;
-	opacity: .6;
+
+	/*opacity: .6;*/
 	width: 90%;
-	height: 150px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 15px ;
 	font-family: helvetica;
 	background-color: #345246;
+	padding: 10px;
 	color: white;
-	clear: both;
+	clear: right;
+	position: relative;
 	
 }
+
+#p1{
+	background-color: #345246;
+}
+
+#p2{
+	background-color: #26547C;
+
+}
+#p3{
+
+	background-color: #FFD166;
+}
+
+
 
 h2{
 	float: right;
-	background-color: #345246;
+	top: -20px;
+	padding: 0;
 	width: 150px;
 	color: white;
 	text-align: center;
 	border: 1px solid black;
 	margin-bottom: 20px;
-	position: absolute;
+	position: relative;
+}
+
+h2.first{
+	
+	background-color: #345246;
+	
+}
+h2.second{
+	
+	background-color: #26547C;
+	color: #FFD166;
+	
+}
+h2.third{
+	
+	background-color: #FFD166;
+	color: #26547C;
+
+	
 }
 .row{
 	width: 100%;
@@ -55,6 +86,8 @@ h2{
 		background-color:#6c6a61;
 		border: 1px solid black;
 		margin: 15px;
+		/*align-items: center;*/
+		position: relative;
 
 	}
 
@@ -68,7 +101,7 @@ h2{
 		width: 25%;
 	}
 	.col-lg-4{
-		width: 33%;
+		width: 30%;
 	}
 	.col-lg-5{
 		width: 41.66%;
@@ -95,13 +128,6 @@ h2{
 		width: 100%;
 	}
 
-	
-}
-	
-
-
-
-
 
 }
 /*--------------Medium Devices ---------------*/
@@ -113,9 +139,12 @@ h2{
 		float: left;
 		background-color:#6c6a61;
 		border: 1px solid black;
-		margin: 15px;
+		margin: 2%;
+		/*align-items: center;*/
+		position: relative;
 
 	}
+
 
 	.col-md-1{
 		width: 8.33%;
@@ -145,7 +174,7 @@ h2{
 		width: 74.99%;
 	}
 	.col-md-10{
-		width: 83.33%;
+		width: 83.32%;
 	}
 	.col-md-11{
 		width: 91.66%;
@@ -154,10 +183,22 @@ h2{
 		width: 100%;
 	}
 	
-	
+}
+
+/*-------------Mobile Device---------------*/
+@media (max-width: 767px){
+	.col-sm-11{
+		float: left;
+		background-color:#6c6a61;
+		border: 1px solid black;
+		margin: 15px;
+		/*align-items: center;*/
+		position: relative;
+		width: 90%;
+
 }
 	
-	
+
 	
 }
 
