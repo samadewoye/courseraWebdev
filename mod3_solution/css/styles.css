@@ -1,0 +1,88 @@
+body{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: #999999;
+	border-radius: 0;
+  	border: 0;
+}
+.navbar-toggle{
+	clear: left;
+	bottom: 30px;
+	
+}
+.navbar-brand {
+	height: 80px;
+}
+
+.navbar-brand h1{
+	color: #000000;
+	line-height: 15px;
+	font-size: 1.7em;
+	margin-top: 30px;
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+	background-color: #ccc;
+	transition: 0.3s;
+
+}
+.navbar-default .navbar-toggle{
+	border: 2px solid #F3C178;
+	background-color: #545643;
+}
+#collapsable-nav{
+	text-align: center;
+}
+.navbar-collapse li{
+	background-color: #fff;
+	border: 1px solid #000000;
+}
+.navbar-default .navbar-nav>li{
+	background-color: #F3C178;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000000;
+	font-weight: bold;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color:#ccc;
+}
+.navbar-collapse .nav span{
+	font-size: 1.8em;
+	color: #000000;
+}
+/* MAIN-CONTENT */
+#main-content h1{
+	margin-bottom: 50px;
+}
+#main-content div{
+	background-color: #999999;
+	
+}
+.row{
+	margin-right: 0;
+	margin-left: 0;
+	
+}
+#chickensection{
+	margin-bottom: 30px;
+}
+#chickensection h2{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#chickensection p{
+	padding: 0 10px 10px 10px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: .8em;
+
+}
